@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.7 on win32)" generated="20211005 00:06:27.664" rpa="false" schemaversion="2">
+<suite id="s1" name="Range" source="C:\Users\natal\OneDrive\Área de Trabalho\Loops\tests\range.robot">
+<test id="s1-t1" name="Teste mais opções IN RANGE">
+<kw name="Tradicional">
+<doc>Percorre de 1 até 10</doc>
+<for flavor="IN RANGE">
+<var>${index}</var>
+<value>1</value>
+<value>11</value>
+<iter>
+<var name="${index}">1</var>
+<kw name="Log" library="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211005 00:06:27.692" level="INFO">1</msg>
+<status status="PASS" starttime="20211005 00:06:27.692" endtime="20211005 00:06:27.692"/>
+</kw>
+<status status="PASS" starttime="20211005 00:06:27.691" endtime="20211005 00:06:27.692"/>
+</iter>
+<iter>
+<var name="${index}">2</var>
+<kw name="Log" library="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211005 00:06:27.692" level="INFO">2</msg>
+<status status="PASS" starttime="20211005 00:06:27.692" endtime="20211005 00:06:27.692"/>
+</kw>
+<status status="PASS" starttime="20211005 00:06:27.692" endtime="20211005 00:06:27.692"/>
+</iter>
+<iter>
+<var name="${index}">3</var>
+<kw name="Log" library="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211005 00:06:27.693" level="INFO">3</msg>
+<status status="PASS" starttime="20211005 00:06:27.692" endtime="20211005 00:06:27.693"/>
+</kw>
+<status status="PASS" starttime="20211005 00:06:27.692" endtime="20211005 00:06:27.693"/>
+</iter>
+<iter>
+<var name="${index}">4</var>
+<kw name="Log" library="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211005 00:06:27.693" level="INFO">4</msg>
+<status status="PASS" starttime="20211005 00:06:27.693" endtime="20211005 00:06:27.693"/>
+</kw>
+<status status="PASS" starttime="20211005 00:06:27.693" endtime="20211005 00:06:27.693"/>
+</iter>
+<iter>
+<var name="${index}">5</var>
+<kw name="Log" library="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211005 00:06:27.693" level="INFO">5</msg>
+<status status="PASS" starttime="20211005 00:06:27.693" endtime="20211005 00:06:27.693"/>
+</kw>
+<status status="PASS" starttime="20211005 00:06:27.693" endtime="20211005 00:06:27.693"/>
+</iter>
+<iter>
+<var name="${index}">6</var>
+<kw name="Log" library="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211005 00:06:27.694" level="INFO">6</msg>
+<status status="PASS" starttime="20211005 00:06:27.694" endtime="20211005 00:06:27.694"/>
+</kw>
+<status status="PASS" starttime="20211005 00:06:27.694" endtime="20211005 00:06:27.694"/>
+</iter>
+<iter>
+<var name="${index}">7</var>
+<kw name="Log" library="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211005 00:06:27.694" level="INFO">7</msg>
+<status status="PASS" starttime="20211005 00:06:27.694" endtime="20211005 00:06:27.694"/>
+</kw>
+<status status="PASS" starttime="20211005 00:06:27.694" endtime="20211005 00:06:27.694"/>
+</iter>
+<iter>
+<var name="${index}">8</var>
+<kw name="Log" library="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211005 00:06:27.695" level="INFO">8</msg>
+<status status="PASS" starttime="20211005 00:06:27.694" endtime="20211005 00:06:27.695"/>
+</kw>
+<status status="PASS" starttime="20211005 00:06:27.694" endtime="20211005 00:06:27.695"/>
+</iter>
+<iter>
+<var name="${index}">9</var>
+<kw name="Log" library="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211005 00:06:27.695" level="INFO">9</msg>
+<status status="PASS" starttime="20211005 00:06:27.695" endtime="20211005 00:06:27.695"/>
+</kw>
+<status status="PASS" starttime="20211005 00:06:27.695" endtime="20211005 00:06:27.695"/>
+</iter>
+<iter>
+<var name="${index}">10</var>
+<kw name="Log" library="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20211005 00:06:27.695" level="INFO">10</msg>
+<status status="PASS" starttime="20211005 00:06:27.695" endtime="20211005 00:06:27.695"/>
+</kw>
+<status status="PASS" starttime="20211005 00:06:27.695" endtime="20211005 00:06:27.695"/>
+</iter>
+<status status="PASS" starttime="20211005 00:06:27.691" endtime="20211005 00:06:27.695"/>
+</for>
+<status status="PASS" starttime="20211005 00:06:27.691" endtime="20211005 00:06:27.696"/>
+</kw>
+<kw name="Apenas quantidade de laços informada (limite superior)">
+<doc>Percorre de 0 até 9</doc>
+<for flavor="IN RANGE">
+<var>${index}</var>
+<value>10</value>
+<msg timestamp="20211005 00:06:27.696" level="FAIL">FOR loop has empty body.</msg>
+<status status="FAIL" starttime="20211005 00:06:27.696" endtime="20211005 00:06:27.696"/>
+</for>
+<status status="FAIL" starttime="20211005 00:06:27.696" endtime="20211005 00:06:27.696"/>
+</kw>
+<kw name="Aritmético">
+<doc>Percorre de 0 até 5</doc>
+<status status="NOT RUN" starttime="20211005 00:06:27.697" endtime="20211005 00:06:27.697"/>
+</kw>
+<kw name="Intervalos específicos">
+<doc>Percorre de 0 até 30, pulando de 5 em 5</doc>
+<status status="NOT RUN" starttime="20211005 00:06:27.697" endtime="20211005 00:06:27.697"/>
+</kw>
+<status status="FAIL" starttime="20211005 00:06:27.690" endtime="20211005 00:06:27.697">FOR loop has empty body.</status>
+</test>
+<status status="FAIL" starttime="20211005 00:06:27.666" endtime="20211005 00:06:27.698"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Range">Range</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
